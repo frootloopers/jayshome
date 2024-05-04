@@ -15,7 +15,7 @@ function srcset(image, size, rows = 1, cols = 1) {
 export default function QuiltedImageList({itemData}) {
   return (
     <ImageList className="App-Table"
-      sx={{ minWidth: 1080, width: "70%", maxWidth: 1280 }}
+      sx={{ minWidth: 1080, width: "70%", maxWidth: 1080 }}
       variant="quilted"
       cols={4}
     >
