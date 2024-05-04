@@ -22,7 +22,7 @@ export default function QuiltedImageList({itemData}) {
       {itemData.map((item) => (
           <ImageListItem key={item.img} cols={item.cols || 1} rows={item.rows || 1}>
             <img className="Tile-vignette"
-              {...srcset('/Vignette.png', 121, item.rows, item.cols)}
+              {...srcset('Vignette.png', 121, item.rows, item.cols)}
               alt={item.title}
               loading="lazy"
             />

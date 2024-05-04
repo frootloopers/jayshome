@@ -6,7 +6,7 @@ import LinksRow from './LinksRow.js';
 function App() {
   return (
     <div className="App" style={{
-      backgroundImage: `url("/Background.png")`,
+      backgroundImage: `url("Background.png")`,
       }}>
       <div className="Title">
         Jay's Home
@@ -34,7 +34,7 @@ const itemData = [
     cols: 2,
   },
   {
-    img: '/Splashpage_blue.jpg',
+    img: 'Splashpage_blue.jpg',
     link: 'https://jennyho.itch.io/porous-is-he',
     title: 'Porous Is He',
     desc: 'Team lead for a puzzle-platformer game that revolves around absorption.',
@@ -44,7 +44,7 @@ const itemData = [
     cols: 2,
   },
   {
-    img: '/DTW1.png',
+    img: 'DTW1.png',
     link: 'https://steamcommunity.com/sharedfiles/filedetails/?id=2891779083',
     title: 'Dive Through Windows',
     desc: 'Mod for Project Zomboid which allows players to throw themselves through windows. Modified animation replication to make the mod work in multiplayer. As seen on multiple youtube channels including Nurse',
@@ -54,7 +54,7 @@ const itemData = [
     cols: 2,
   },
   {
-    img: '/JaysPathfindFix.png',
+    img: 'JaysPathfindFix.png',
     link: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3185310846',
     title: 'Pathfind Fix',
     desc: 'Java mod which fixes an error in the pathfinder of Project Zomboid.',
