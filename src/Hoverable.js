@@ -4,7 +4,7 @@ export default function Hoverable({title, date, desc, type}) {
   return (
     <div className="Tile">
       <div className="Tile-popup" style={{
-      backgroundImage: `url("/Tileshadow2.png")`,
+      backgroundImage: `url("Tileshadow2.png")`,
       }}>
         <div className="Tile-text Tile-title">
           {title}
