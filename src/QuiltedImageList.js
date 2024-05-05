@@ -47,7 +47,7 @@ export default function QuiltedImageList({itemData}) {
 
   return (
     <ImageList className="App-Table"
-      sx={{ minWidth: listWidth, width: "70%", maxWidth: listWidth }}
+      sx={{ minWidth: "300px", width: "70%", maxWidth: listWidth }}
       variant="quilted"
       cols={maxCols}
     >
@@ -60,11 +60,9 @@ export default function QuiltedImageList({itemData}) {
             />
             <img
               {...srcset(item.img, 121, item.rows, item.cols)}
+              className="Tile-img"
               alt={item.title}
               loading="lazy"
-              style={{
-                minHeight: 385, height: "40%", maxHeight: 385
-              }}
             />
             <a href={item.link}>
             <Hoverable title={item.title} date={item.date} desc={item.desc} type={item.type}/>

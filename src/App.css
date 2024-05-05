@@ -107,6 +107,11 @@
 }
 .Tile-dateAndType {
 }
+.Tile-img {
+  height: auto;
+  width: auto;
+  max-height: 385px;
+}
 
 .App-Table {
   padding-bottom:5px;
