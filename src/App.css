@@ -60,6 +60,7 @@
   display: flex;
   justify-content: center;
   font-family: 'OCR A Std';
+  text-shadow: 2px 2px #333333;
   font-size: 24pt;
   padding-top: 16px;
   color: rgb(0,255,0);
@@ -97,6 +98,7 @@
 
 .Tile-text {
   font-family: 'OCR A Std';
+  text-shadow: 2px 2px #333333;
   color: rgb(0,255,0);
   font-size: 0.9em;
   margin: 5px;
