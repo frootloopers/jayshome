@@ -29,7 +29,7 @@ const itemData = [
     img: 'JaysBuildingExpansion1.png',
     link: 'https://steamcommunity.com/sharedfiles/filedetails/?id=3189275874',
     title: 'Jay\'s Building Expansion',
-    desc: 'Expansion pack made for Project Zomboid\'s building system. \nAdds custom building upgrade mechanic. \nIntroduces many new tiles, including custom art by yours truly.',
+    desc: 'Expansion pack made for Project Zomboid\'s building system. \nIntroduces many new tiles, including custom art by yours truly.',
     type: "Mod",
     date: "17/03/2024",
     rows: 2,
