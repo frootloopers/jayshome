@@ -64,9 +64,7 @@ export default function QuiltedImageList({itemData}) {
               alt={item.title}
               loading="lazy"
             />
-            <a href={item.link}>
-            <Hoverable title={item.title} date={item.date} desc={item.desc} type={item.type}/>
-            </a>
+            <Hoverable title={item.title} date={item.date} desc={item.desc} type={item.type} link={item.link}/>
           </ImageListItem>
       ))}
     </ImageList>

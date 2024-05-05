@@ -5,16 +5,18 @@ import LinksRow from './LinksRow.js';
 
 function App() {
   return (
-    <div className="App" style={{
+    <div className="App">
+      <div className="App-background" style={{
       backgroundImage: `url("Background.png")`,
       }}>
-      <div className="Title">
-        Jay's Home
+        <div className="Title">
+          Jay's Home
+        </div>
+        <div className="Body-table">
+          <QuiltedImageList itemData={itemData}></QuiltedImageList>
+        </div>
+        <LinksRow></LinksRow>
       </div>
-      <div className="Body-table">
-        <QuiltedImageList itemData={itemData}></QuiltedImageList>
-      </div>
-      <LinksRow></LinksRow>
     </div>
   );
 }
