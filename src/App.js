@@ -49,7 +49,7 @@ const itemData = [
     img: 'DTW1.png',
     link: 'https://steamcommunity.com/sharedfiles/filedetails/?id=2891779083',
     title: 'Dive Through Windows',
-    desc: 'Project Zomboid mod that lets players throw themselves through windows. \nUses replication to sync animations in MP. \nSeen on youtube channels including Nurse. 250k+ downloads',
+    desc: 'Project Zomboid mod that lets players throw themselves through windows. \nAs seen on youtube channels including Nurse. 250k+ downloads',
     type: "Mod",
     date: "21/11/2022",
     rows: 2,
