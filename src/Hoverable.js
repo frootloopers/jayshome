@@ -13,7 +13,7 @@ export default function Hoverable({title, date, desc, type, link}) {
             {title}
           </div>
           <a href={link}>
-            <LinkLogo fill='#00FF00' style={{ height: 50, width: 50 }}/>
+            <LinkLogo className={`Iconbutton`} style={{ height: 50, width: 50 }}/>
           </a>
         </div>
         <div className="Tile-dateAndType">

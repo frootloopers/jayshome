@@ -21,10 +21,10 @@ export default function LinksRow() {
   return (
     <div className="App-Table">
       <a href='https://www.linkedin.com/in/jian-jia-chen'>
-        <LinkedInLogo fill='#00FF00' style={{ height: 50, width: 50 }}/>
+        <LinkedInLogo className={`Iconbutton`} style={{ height: 50, width: 50 }}/>
       </a>
-      <a href='jayzchen2001@gmail.com'>
-        <EmailLogo fill='#00FF00'/>
+      <a href='mailto: jayzchen2001@gmail.com'>
+        <EmailLogo className={`Iconbutton`}/>
       </a>
     </div>
   );
