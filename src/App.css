@@ -98,7 +98,7 @@
 .Tile-text {
   font-family: 'OCR A Std';
   color: rgb(0,255,0);
-  font-size: 1em;
+  font-size: 0.9em;
   margin: 5px;
 }
 .Tile-date {

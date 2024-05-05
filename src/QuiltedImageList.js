@@ -47,7 +47,7 @@ export default function QuiltedImageList({itemData}) {
 
   return (
     <ImageList className="App-Table"
-      sx={{ minWidth: "300px", width: "90%", maxWidth: listWidth }}
+      sx={{ minWidth: "300px", width: "95%", maxWidth: listWidth }}
       variant="quilted"
       cols={maxCols}
     >
